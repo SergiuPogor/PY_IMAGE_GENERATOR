@@ -9,8 +9,9 @@ height = HEIGHT
 
 image = generate_image(width, height)
 
-center_x = width / 2
-center_y = height / 2
+center_x = width // 2
+center_y = height // 2
+
 circle_radius = 1000
 border_size = int(circle_radius / 100)
 
@@ -36,10 +37,5 @@ for i in range(num_circles):
         circle_radius_j = circle_radius + j
         image = generate_circle(image, circle_center_x, circle_center_y, circle_radius_j, 1, interpolated_color)
 
-final_filename = '{}/{}/{}.png'.format(MEDIA_PATH, os.path.basename(os.path.abspath(__file__)).replace('.py', ''), datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
-make_dir_if_not_exist(final_filename)
-
-# Save the image
-image.save(final_filename, "PNG")
-
-print(Fore.MAGENTA + '{}'.format(TIMESTAMP), Fore.WHITE + '{}'.format(final_filename))
+# Save Image to a local file
+save_image_to_file(image, '{}/{}/{}.png'.format(MEDIA_PATH, os.path.basename(os.path.abspath(__file__)).replace('.py', ''), datetime.now().strftime("%Y-%m-%d_%H-%M-%S")))

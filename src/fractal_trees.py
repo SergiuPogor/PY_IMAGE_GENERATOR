@@ -29,7 +29,7 @@ draw = ImageDraw.Draw(image)
 tree_color = generate_random_color()
 
 # Set the starting position and angle
-start_x = width / 2
+start_x = width // 2
 start_y = height - 500
 start_angle = -90
 start_length = 1000
@@ -38,10 +38,5 @@ start_level = 15
 # Draw the fractal tree
 draw_tree(start_x, start_y, start_angle, start_length, start_level)
 
-final_filename = '{}/{}/{}.png'.format(MEDIA_PATH, os.path.basename(os.path.abspath(__file__)).replace('.py', ''), datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
-make_dir_if_not_exist(final_filename)
-
-# Save the image
-image.save(final_filename, "PNG")
-
-print(Fore.MAGENTA + '{}'.format(TIMESTAMP), Fore.WHITE + '{}'.format(final_filename))
+# Save Image to a local file
+save_image_to_file(image, '{}/{}/{}.png'.format(MEDIA_PATH, os.path.basename(os.path.abspath(__file__)).replace('.py', ''), datetime.now().strftime("%Y-%m-%d_%H-%M-%S")))

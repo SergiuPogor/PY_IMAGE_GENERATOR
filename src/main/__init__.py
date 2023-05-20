@@ -56,3 +56,12 @@ def generate_circle(image, center_x, center_y, radius, border_size, color):
 
 def generate_random_color():
     return random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)
+
+
+def save_image_to_file(image, final_filename, extension="PNG"):
+    make_dir_if_not_exist(final_filename)
+
+    # Save the image
+    image.save(final_filename, extension)
+
+    print(Fore.MAGENTA + '{}'.format(TIMESTAMP), Fore.WHITE + '{}'.format(final_filename))

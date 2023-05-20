@@ -89,6 +89,22 @@ Examples:
 
 </details>
 
+
+<details>
+<summary><b> Pixel Art </b></summary>
+Create pixel art by randomly coloring individual pixels on a canvas. You can define a palette of colors and randomly assign them to pixels, resulting in a retro and nostalgic visual style.
+
+    python src/pixel_art.py
+
+Examples:
+<p align="center">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8777f3275487302a811944ab1d1892e12e12772e/data/input/images/pixel_art/2023-05-20_15-54-26.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8777f3275487302a811944ab1d1892e12e12772e/data/input/images/pixel_art/2023-05-20_16-01-44.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8777f3275487302a811944ab1d1892e12e12772e/data/input/images/pixel_art/2023-05-20_16-01-49.png" alt="">
+</p>
+
+</details>
+
 ---
 
 ## Support

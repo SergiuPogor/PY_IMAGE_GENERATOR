@@ -66,9 +66,9 @@ Simulate particle systems by generating multiple small shapes (e.g., dots) with 
 
 Examples:
 <p align="center">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-39-34.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-40-18.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-40-21.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/c68c539f1c3434c8b677db43d85350d3ae907e0f/data/input/images/particle_systems/2023-05-20_14-39-34.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/c68c539f1c3434c8b677db43d85350d3ae907e0f/data/input/images/particle_systems/2023-05-20_14-40-18.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/c68c539f1c3434c8b677db43d85350d3ae907e0f/data/input/images/particle_systems/2023-05-20_14-40-21.png" alt="">
 </p>
 
 </details>

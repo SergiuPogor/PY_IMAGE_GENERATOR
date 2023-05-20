@@ -106,7 +106,6 @@ Examples:
 </details>
 
 
-
 <details>
 <summary><b> Fractal Trees </b></summary>
 Implement a recursive algorithm to draw fractal trees. Starting from a trunk, branch out into smaller branches recursively, varying the length and angle of each branch. This creates intricate and self-repeating tree-like patterns.
@@ -122,6 +121,21 @@ Examples:
 
 </details>
 
+
+<details>
+<summary><b> Kaleidoscope </b></summary>
+Implement a recursive algorithm to draw fractal trees. Starting from a trunk, branch out into smaller branches recursively, varying the length and angle of each branch. This creates intricate and self-repeating tree-like patterns.
+
+    python src/kaleidoscope.py
+
+Examples:
+<p align="center">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/30a669eadc87d760952c6ac62a7812162a078db2/data/input/images/kaleidoscope/2023-05-20_16-29-29.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/30a669eadc87d760952c6ac62a7812162a078db2/data/input/images/kaleidoscope/2023-05-20_16-29-45.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/30a669eadc87d760952c6ac62a7812162a078db2/data/input/images/kaleidoscope/2023-05-20_16-30-40.png" alt="">
+</p>
+
+</details>
 ---
 
 ## Support

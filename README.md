@@ -35,9 +35,10 @@ Instead of using a solid color for each circle, you can create gradient effects 
     python src/gradient_effects.py
 
 
-<p align="center"><img width=30% src="https://files.catbox.moe/tct1wg.png"></p>
-<p align="center"><img width=30% src="https://files.catbox.moe/tct1wg.png"></p>
-<p align="center"><img width=30% src="https://files.catbox.moe/tct1wg.png"></p>
+<p align="center"><img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/73aecda0be76554cd85eea3a2dc66fddee817942/data/input/images/gradient_effects/2023-05-20_13-14-16.png" alt=""></p>
+<p align="center"><img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/73aecda0be76554cd85eea3a2dc66fddee817942/data/input/images/gradient_effects/2023-05-20_13-14-22.png" alt=""></p>
+<p align="center"><img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/73aecda0be76554cd85eea3a2dc66fddee817942/data/input/images/gradient_effects/2023-05-20_13-14-24.png" alt=""></p>
+
 
 </details>
 

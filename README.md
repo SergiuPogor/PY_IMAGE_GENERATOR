@@ -58,6 +58,20 @@ Examples:
 
 </details>
 
+<details>
+<summary><b>Random Shapes </b></summary>
+Instead of circles, you can experiment with drawing random shapes such as squares, triangles, or polygons at different positions and sizes. You can also combine multiple shapes to create more complex patterns.
+
+    python src/random_shapes.py
+
+Examples:
+<p align="center">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-36-05.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-36-08.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-36-10.png" alt="">
+</p>
+
+</details>
 
 ---
 

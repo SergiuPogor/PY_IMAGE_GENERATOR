@@ -115,9 +115,9 @@ Implement a recursive algorithm to draw fractal trees. Starting from a trunk, br
 
 Examples:
 <p align="center">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8777f3275487302a811944ab1d1892e12e12772e/data/input/images/fractal_trees/2023-05-20_15-54-26.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8777f3275487302a811944ab1d1892e12e12772e/data/input/images/fractal_trees/2023-05-20_16-01-44.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8777f3275487302a811944ab1d1892e12e12772e/data/input/images/fractal_trees/2023-05-20_16-01-49.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/2031ee9f9195b2aab76f0c17d03233217850d4fd/data/input/images/fractal_trees/2023-05-20_16-15-56.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/2031ee9f9195b2aab76f0c17d03233217850d4fd/data/input/images/fractal_trees/2023-05-20_16-15-58.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/2031ee9f9195b2aab76f0c17d03233217850d4fd/data/input/images/fractal_trees/2023-05-20_16-16-00.png" alt="">
 </p>
 
 </details>

@@ -51,9 +51,9 @@ Instead of circles, you can experiment with drawing random shapes such as square
 
 Examples:
 <p align="center">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/73aecda0be76554cd85eea3a2dc66fddee817942/data/input/images/random_shapes/2023-05-20_14-03-56.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/73aecda0be76554cd85eea3a2dc66fddee817942/data/input/images/random_shapes/2023-05-20_14-04-05.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/73aecda0be76554cd85eea3a2dc66fddee817942/data/input/images/random_shapes/2023-05-20_14-04-17.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/505cfbdd3c098f2c609e96a10cdb1fef45fe3d1f/data/input/images/random_shapes/2023-05-20_14-03-56.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/505cfbdd3c098f2c609e96a10cdb1fef45fe3d1f/data/input/images/random_shapes/2023-05-20_14-04-05.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/505cfbdd3c098f2c609e96a10cdb1fef45fe3d1f/data/input/images/random_shapes/2023-05-20_14-04-17.png" alt="">
 </p>
 
 </details>

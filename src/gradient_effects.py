@@ -1,6 +1,3 @@
-import math
-import random
-
 from main import *
 
 # Example usage

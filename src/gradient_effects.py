@@ -1,10 +1,13 @@
+import math
+import random
+
 from main import *
 
 # Example usage
 image_width = WIDTH
 image_height = HEIGHT
 
-transparent_image = generate_transparent_image(image_width, image_height)
+image = generate_image(image_width, image_height)
 
 center_x = image_width // 2
 center_y = image_height // 2
@@ -31,12 +34,12 @@ for i in range(num_circles):
         interpolated_color = tuple(int(start + (end - start) * ratio) for start, end in zip(start_color, end_color))
 
         circle_radius_j = circle_radius + j
-        transparent_image = generate_circle(transparent_image, circle_center_x, circle_center_y, circle_radius_j, 1, interpolated_color)
+        image = generate_circle(image, circle_center_x, circle_center_y, circle_radius_j, 1, interpolated_color)
 
 final_filename = '{}/{}/{}.png'.format(MEDIA_PATH, os.path.basename(os.path.abspath(__file__)).replace('.py', ''), datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
 make_dir_if_not_exist(final_filename)
 
 # Save the image
-transparent_image.save(final_filename, "PNG")
+image.save(final_filename, "PNG")
 
 print(Fore.MAGENTA + '{}'.format(TIMESTAMP), Fore.WHITE + '{}'.format(final_filename))

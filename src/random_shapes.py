@@ -1,10 +1,12 @@
+import random
+
 from main import *
 
 # Example usage
 image_width = WIDTH
 image_height = HEIGHT
 
-transparent_image = generate_transparent_image(image_width, image_height)
+image = generate_image(image_width, image_height)
 
 num_shapes = 200
 min_shape_size = image_width / 100
@@ -18,7 +20,7 @@ for _ in range(num_shapes):
     shape_position = (random.randint(0, image_width), random.randint(0, image_height))
     shape_color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
-    draw = ImageDraw.Draw(transparent_image)
+    draw = ImageDraw.Draw(image)
 
     if shape_type == 'circle':
         bounding_box = [(shape_position[0] - shape_size, shape_position[1] - shape_size),
@@ -40,6 +42,6 @@ final_filename = '{}/{}/{}.png'.format(MEDIA_PATH, os.path.basename(os.path.absp
 make_dir_if_not_exist(final_filename)
 
 # Save the image
-transparent_image.save(final_filename, "PNG")
+image.save(final_filename, "PNG")
 
 print(Fore.MAGENTA + '{}'.format(TIMESTAMP), Fore.WHITE + '{}'.format(final_filename))

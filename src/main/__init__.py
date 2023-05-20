@@ -1,9 +1,7 @@
 import os
-import sys
-import math
 import os.path
 import random
-
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -38,9 +36,9 @@ def make_dir_if_not_exist(file_path):
     path_to_dir.mkdir(parents=True, exist_ok=True)
 
 
-def generate_transparent_image(width, height):
+def generate_image(width, height, color=(0, 0, 0, 0)):
     # Create a new image with transparent background
-    return Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    return Image.new("RGBA", (width, height), color)
 
 
 def generate_circle(image, center_x, center_y, radius, border_size, color):
@@ -54,3 +52,7 @@ def generate_circle(image, center_x, center_y, radius, border_size, color):
     draw.ellipse(bounding_box, outline=color, width=border_size)
 
     return image
+
+
+def generate_random_color():
+    return random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)

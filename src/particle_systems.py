@@ -8,7 +8,7 @@ from main import *
 image_width = WIDTH
 image_height = HEIGHT
 num_particles = 100
-max_velocity = 100
+max_velocity = 50
 gravity = 0.2
 
 # Create a blank image

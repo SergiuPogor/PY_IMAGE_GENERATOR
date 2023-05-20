@@ -29,7 +29,7 @@ python src/gradient_effects.py
 
 ## Effects
 <details>
-<summary><b>Gradient Effects </b></summary>
+<summary><b> Gradient Effects </b></summary>
 Instead of using a solid color for each circle, you can create gradient effects by generating random colors within a certain range and smoothly transitioning the colors from one circle to another.
 
     python src/gradient_effects.py
@@ -44,7 +44,7 @@ Examples:
 </details>
 
 <details>
-<summary><b>Random Shapes </b></summary>
+<summary><b> Random Shapes </b></summary>
 Instead of circles, you can experiment with drawing random shapes such as squares, triangles, or polygons at different positions and sizes. You can also combine multiple shapes to create more complex patterns.
 
     python src/random_shapes.py
@@ -59,16 +59,16 @@ Examples:
 </details>
 
 <details>
-<summary><b>Random Shapes </b></summary>
-Instead of circles, you can experiment with drawing random shapes such as squares, triangles, or polygons at different positions and sizes. You can also combine multiple shapes to create more complex patterns.
+<summary><b> Particle Systems </b></summary>
+Simulate particle systems by generating multiple small shapes (e.g., dots) with random positions and velocities. You can add gravity or other forces to create interesting movement patterns.
 
-    python src/random_shapes.py
+    python src/particle_systems.py
 
 Examples:
 <p align="center">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-36-05.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-36-08.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-36-10.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-39-34.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-40-18.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8497ab6c616796e5551f6d6b43a6caf38258f2a3/data/input/images/particle_systems/2023-05-20_14-40-21.png" alt="">
 </p>
 
 </details>

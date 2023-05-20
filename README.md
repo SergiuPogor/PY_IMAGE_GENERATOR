@@ -73,6 +73,22 @@ Examples:
 
 </details>
 
+
+<details>
+<summary><b> Noise-based </b></summary>
+Utilize various noise functions (e.g., Perlin noise) to create organic and natural-looking effects. You can manipulate the noise parameters to control the density, scale, and variation of the patterns.
+
+    python src/noise_based.py
+
+Examples:
+<p align="center">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/c68c539f1c3434c8b677db43d85350d3ae907e0f/data/input/images/particle_systems/2023-05-20_14-39-34.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/c68c539f1c3434c8b677db43d85350d3ae907e0f/data/input/images/particle_systems/2023-05-20_14-40-18.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/c68c539f1c3434c8b677db43d85350d3ae907e0f/data/input/images/particle_systems/2023-05-20_14-40-21.png" alt="">
+</p>
+
+</details>
+
 ---
 
 ## Support

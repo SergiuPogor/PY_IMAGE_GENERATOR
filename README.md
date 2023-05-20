@@ -105,6 +105,23 @@ Examples:
 
 </details>
 
+
+
+<details>
+<summary><b> Fractal Trees </b></summary>
+Implement a recursive algorithm to draw fractal trees. Starting from a trunk, branch out into smaller branches recursively, varying the length and angle of each branch. This creates intricate and self-repeating tree-like patterns.
+
+    python src/fractal_trees.py
+
+Examples:
+<p align="center">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8777f3275487302a811944ab1d1892e12e12772e/data/input/images/fractal_trees/2023-05-20_15-54-26.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8777f3275487302a811944ab1d1892e12e12772e/data/input/images/fractal_trees/2023-05-20_16-01-44.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/8777f3275487302a811944ab1d1892e12e12772e/data/input/images/fractal_trees/2023-05-20_16-01-49.png" alt="">
+</p>
+
+</details>
+
 ---
 
 ## Support

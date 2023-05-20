@@ -4,13 +4,13 @@ import random
 from main import *
 
 # Example usage
-image_width = WIDTH
-image_height = HEIGHT
+width = WIDTH
+height = HEIGHT
 
-image = generate_image(image_width, image_height)
+image = generate_image(width, height)
 
-center_x = image_width // 2
-center_y = image_height // 2
+center_x = width / 2
+center_y = height / 2
 circle_radius = 1000
 border_size = int(circle_radius / 100)
 

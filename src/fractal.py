@@ -9,8 +9,8 @@ height = HEIGHT
 
 image = generate_image(width, height)
 
-# center_x = width // 2
-# center_y = height // 2
+# center_x = width / 2
+# center_y = height / 2
 # circle_radius = 1000
 # border_size = int(circle_radius / 100)
 #

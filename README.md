@@ -82,9 +82,9 @@ Utilize various noise functions (e.g., Perlin noise) to create organic and natur
 
 Examples:
 <p align="center">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/c68c539f1c3434c8b677db43d85350d3ae907e0f/data/input/images/particle_systems/2023-05-20_14-39-34.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/c68c539f1c3434c8b677db43d85350d3ae907e0f/data/input/images/particle_systems/2023-05-20_14-40-18.png" alt="">
-<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/c68c539f1c3434c8b677db43d85350d3ae907e0f/data/input/images/particle_systems/2023-05-20_14-40-21.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/b879a03c9e21324136753d2e13d741f692d3c5fc/data/input/images/noise_based/2023-05-20_15-44-02.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/b879a03c9e21324136753d2e13d741f692d3c5fc/data/input/images/noise_based/2023-05-20_15-47-27.png" alt="">
+<img width=30% src="https://github.com/SergiuPogor/PY_IMAGE_GENERATOR/raw/b879a03c9e21324136753d2e13d741f692d3c5fc/data/input/images/noise_based/2023-05-20_15-48-17.png" alt="">
 </p>
 
 </details>

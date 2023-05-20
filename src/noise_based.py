@@ -3,10 +3,10 @@ import noise
 from main import *
 
 # Example usage
-image_width = WIDTH
-image_height = HEIGHT
+width = WIDTH
+height = HEIGHT
 
-image = generate_image(image_width, image_height)
+image = generate_image(width, height)
 draw = ImageDraw.Draw(image)
 
 # Noise parameters
@@ -15,8 +15,8 @@ octaves = 6  # Number of levels of detail in the noise pattern
 persistence = 0.5  # Controls the roughness of the noise pattern
 
 # Generate noise-based effects
-for y in range(image_height):
-    for x in range(image_width):
+for y in range(height):
+    for x in range(width):
         # Generate noise value
         noise_value = noise.pnoise2(x * scale, y * scale, octaves=octaves, persistence=persistence)
 

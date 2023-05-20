@@ -5,14 +5,14 @@ from PIL import Image, ImageDraw
 from main import *
 
 # Particle system parameters
-image_width = WIDTH
-image_height = HEIGHT
+width = WIDTH
+height = HEIGHT
 num_particles = 100
 max_velocity = 50
 gravity = 0.2
 
 # Create a blank image
-image = generate_image(image_width, image_height)
+image = generate_image(width, height)
 draw = ImageDraw.Draw(image)
 
 # Define the Particle class
@@ -97,7 +97,7 @@ class Vector2D:
 # Generate random particles
 particles = []
 for _ in range(num_particles):
-    position = Vector2D(random.randint(0, image_width), random.randint(0, image_height))
+    position = Vector2D(random.randint(0, width), random.randint(0, height))
     velocity = Vector2D(random.uniform(-max_velocity, max_velocity), random.uniform(-max_velocity, max_velocity))
     size = random.randint(10, 50)  # Adjust the size range as desired
     particle = Particle(position, velocity, size)

@@ -3,21 +3,21 @@ import random
 from main import *
 
 # Example usage
-image_width = WIDTH
-image_height = HEIGHT
+width = WIDTH
+height = HEIGHT
 
-image = generate_image(image_width, image_height)
+image = generate_image(width, height)
 
 num_shapes = 200
-min_shape_size = image_width / 100
-max_shape_size = image_width / 10
+min_shape_size = width / 100
+max_shape_size = width / 10
 
 border_size = 20
 
 for _ in range(num_shapes):
     shape_type = random.choice(['circle', 'square', 'triangle'])
     shape_size = random.randint(min_shape_size, max_shape_size)
-    shape_position = (random.randint(0, image_width), random.randint(0, image_height))
+    shape_position = (random.randint(0, width), random.randint(0, height))
     shape_color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
     draw = ImageDraw.Draw(image)

@@ -1,3 +1,4 @@
+import json
 import os
 import os.path
 import random
@@ -65,3 +66,13 @@ def save_image_to_file(image, final_filename, extension="PNG"):
     image.save(final_filename, extension)
 
     print(Fore.MAGENTA + '{}'.format(TIMESTAMP), Fore.WHITE + '{}'.format(final_filename))
+
+
+def save_json_to_file(json_date, file_path):
+    dir_path = os.path.dirname(file_path)
+
+    path = Path(dir_path)
+    path.mkdir(parents=True, exist_ok=True)
+
+    with open(file_path, 'w') as outfile:
+        json.dump(json_date, outfile, indent=1)
